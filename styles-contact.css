@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+html,
+body {
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+nav a {
+    padding: 10px;
+    color: black;
+    margin: 2px;
+    text-transform: uppercase;
+
+}
+
+nav a:hover {
+    background-color: lightpink;
+    color: white;
+    transform: scale(1.1);
+}
+
+#profile-link {
+    font-weight: 400;
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
+
+.connection {
+    width: 100%;
+    height: 75vh;
+}
+
+form {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+    font-family: spartan, sans-serif;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid rgb(169, 13, 122)
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid rgb(169, 13, 122)
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2px solid #52a2c5;
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.form-item button:hover {
+    border: 2px solid rgb(169, 13, 122);
+    background-color: rgb(169, 13, 122);
+    color: #FFF;
+}
+
+.form-item button {
+    width: 100px;
+
+}
+
+.form-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+form h2 {
+    font-family: 'Courgette', cursive;
+    font-weight: 200px;
+    color: rgb(169, 13, 122);
+    text-align: center;
+}
+
+.form-item textarea,
+.placeholder {
+    font-size: 12px;
+}
+
+.form-item input,
+.placeholder {
+    font-size: 12px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    margin: 2rem;
+}
+
+footer {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.social,
+h1 {
+    font-family: 'Courgette', cursive;
+}
+
+.social {
+    background-color: #f1e5ea;
+    margin: 0;
+    height: 25vh;
+    padding: 25px;
+}
