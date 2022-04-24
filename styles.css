@@ -8,6 +8,11 @@ body {
 
 }
 
+main {
+    background-color: #f1e5ea;
+
+}
+
 header {
     width: 100%;
     height: 80px;
@@ -15,14 +20,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 #profile-link {
     font-weight: 400;
     font-family: 'Courgette', cursive;
     font-size: 50px;
+    color: rgb(169, 13, 122);
 }
 
 nav {
@@ -65,10 +69,10 @@ nav a:hover {
 
 }
 
-.Hero-Section {
+/* .Hero-Section {
     display: flex;
     justify-content: left;
-}
+} */
 
 .Hero-text {
     font-size: 25px;
@@ -103,14 +107,14 @@ h2 {
 .technologis {
     background-color: #f1e5ea;
     margin: 0;
-    height: 15vh;
-    padding: 20px;
+    height: 15svh;
+    padding: 0px;
+
 }
 
 .tech-icon {
     display: flex;
     justify-content: center;
-
     padding: 1.5rem;
     margin: 2rem;
 }
@@ -144,7 +148,51 @@ footer {
     justify-content: center;
 }
 
+.social {
+    background-color: white;
+    color: rgb(169, 13, 122);
+    height: 25vh;
+    padding: 25px;
+}
+
 .social,
 h1 {
     font-family: 'Courgette', cursive;
+}
+
+@media (max-width:768px) {
+    .tech-icon {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0rem 0rem;
+    }
+
+    .Hero-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: end;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .Hero-highlight {
+        font-size: 2rem;
+
+    }
+
+    .Hero-subtext {
+        font-size: 1.2rem;
+    }
+
+    .About-Me {
+        height: auto;
+        margin: 5px;
+        width: auto;
+    }
+
+    .social,
+    h1 {
+        text-align: center;
+    }
 }

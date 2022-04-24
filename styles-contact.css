@@ -5,7 +5,8 @@ body {
     max-width: 100%;
     height: 100%;
     margin: 0;
-
+    padding: 0px;
+    overflow-x: visible;
 }
 
 header {
@@ -42,7 +43,9 @@ nav a:hover {
     font-weight: 400;
     font-family: 'Courgette', cursive;
     font-size: 50px;
+    color: rgb(169, 13, 122);
 }
+
 
 .connection {
     width: 100%;
@@ -98,28 +101,30 @@ form {
 
 }
 
-.form-section {
+/* .form-section {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end
-}
+} */
 
 form h2 {
     font-family: 'Courgette', cursive;
-    font-weight: 200px;
+    /* font-weight: 200px; */
     color: rgb(169, 13, 122);
+    text-align: center;
+    font-size: 3rem;
     text-align: center;
 }
 
-.form-item textarea,
+/* .form-item textarea,
 .placeholder {
     font-size: 12px;
-}
+} */
 
-.form-item input,
+/* .form-item input,
 .placeholder {
     font-size: 12px;
-}
+} */
 
 .social-link {
     display: flex;
@@ -137,11 +142,65 @@ footer {
 .social,
 h1 {
     font-family: 'Courgette', cursive;
+    color: rgb(169, 13, 122);
+    font-size: 2rem;
+
 }
 
 .social {
-    background-color: #f1e5ea;
+    background-color: white;
     margin: 0;
     height: 25vh;
     padding: 25px;
+}
+
+.hero-image-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    padding-top: 20px;
+    margin: 0;
+    width: 100%;
+    background-color: #f1e5ea;
+    border-radius: 5px;
+}
+
+.connect {
+    width: 100%;
+    height: 50vh;
+    /* background-size: cover;
+    background-position: top; */
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width:600px) {
+    .form-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+
+    }
+
+    .form-item label {
+        flex-basis: 10px;
+        width: 80%;
+    }
+
+    .form-item input {
+        width: 80%;
+    }
+
+    .form-item textarea {
+        width: 80%;
+    }
+
+    .social,
+    h1 {
+        text-align: center;
+    }
 }
