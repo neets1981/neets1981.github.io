@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 html,
 body {
@@ -24,9 +25,10 @@ header {
 
 #profile-link {
     font-weight: 400;
-    font-family: 'Courgette', cursive;
+    /* font-family: 'Courgette', cursive; */
     font-size: 50px;
     color: rgb(169, 13, 122);
+    font-family: 'Monoton', cursive;
 }
 
 nav {
@@ -34,6 +36,7 @@ nav {
     justify-content: space-around;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
+    gap: 2rem;
 }
 
 nav a {
@@ -95,7 +98,7 @@ button {
 .About-Me {
     background-color: #f1e5ea;
     margin: 0;
-    height: 35vh;
+    height: auto;
     padding: 20px;
 }
 
