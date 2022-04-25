@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    width: 100%;
+    width: auto;
     height: 80px;
     margin: 20px;
     display: flex;
