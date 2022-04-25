@@ -206,4 +206,20 @@ form {
     h1 {
         text-align: center;
     }
+
+    .social,
+    h1 {
+        text-align: center;
+        height: auto;
+        margin: 5px;
+        width: auto;
+    }
+
+    @media (min-width:769px) {
+        .social {
+            height: auto;
+            margin: 5px;
+            width: auto;
+        }
+    }
 }

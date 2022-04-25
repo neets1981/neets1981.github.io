@@ -120,4 +120,12 @@ h1 {
     h1 {
         text-align: center;
     }
+
+    @media (min-width:769px) {
+        .social {
+            height: auto;
+            margin: 5px;
+            width: auto;
+        }
+    }
 }
